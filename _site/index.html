@@ -1,32 +1,72 @@
 <!DOCTYPE html>
 <html class="">
 <head>
+
     <title>Hayden Nix</title>
-    
-    <section class="intro">
+
+    <div class="sidenav" id="sidenav">
+        <a href="NixResume.pdf">Resume.</a>
+        <a href="#">Design.</a>
+        <a href="contact.html">Contact.</a>
+    </div>
+</head>
+<body id="main">
+    <section class="intro" id="intro">
+
+    <div class="container" onclick="openNav(this)" id="menuButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div class="arrow-holder" id="arrow-holder">
+        <p class="learn-more learn-more-lasp" id="learn-more-lasp">
+            MORE ABOUT LASP.
+        </p>
+
+        <p class="learn-more learn-more-inspires" id="learn-more-inspires">
+            WHAT INSPIRES ME.
+        </p>
+
+        <p class="learn-more learn-more-UX" id="learn-more-UX">
+            SOME FAVORITE UX's
+        </p>
+    </div>
+
 
     <div class="wrapper">
         <div class="parablock">
-            <p class="paratext">
-                My name is Hayden. I live in Boulder, Colorado and work as a web developer at <a href="http://lasp.colorado.edu" class="intro-link hide lasp-link">LASP</a>.<br/> In my words, I am a <a class="intro-link hide design-link">designer and creator</a>.
+            <p class="paratext paratext-top">
+                My name is Hayden. I live in Boulder, Colorado and work as a web developer at <a href="http://lasp.colorado.edu" class="intro-link hide lasp-link arrow-open">LASP</a>.<br/> In my words, I am a <a class="intro-link hide design-link arrow-open">designer and creator</a>.
             </p>
 
             <p class="paratext">
-                In my free time I enjoy rock climbing, writing code, and designing websites. I find inspiration in <a class="intro-link hide min-link">minimalism</a>, <a class="intro-link hide userex-link">user experience<a/>, <a class="intro-link hide fashion-link">fashion</a>, and my addiction of <a class="intro-link hide sneaker-link">sneakers<a/>.
-
+                In my free time I enjoy rock climbing, writing code, and designing websites. I find inspiration in <a class="intro-link hide min-link arrow-open">minimalism</a>, <a class="intro-link hide userex-link arrow-open">user experience<a/>, <a class="intro-link hide fashion-link">fashion</a>, and my addiction of <a class="intro-link hide sneaker-link">sneakers<a/>.
             </p>
         </div>
         <div class="image-holder"></div>
     </div>
-    
+
+
+
     <link rel="prefetch" href="assets/img/gucci1.jpg" />
     <link rel="prefetch" href="assets/img/sneaker4.gif" />
     <link rel="prefetch" href="assets/img/insta.gif" />
     <link rel="prefetch" href="assets/img/lasp.gif" />
     <link rel="prefetch" href="assets/img/lasp1.gif" />
-    <link rel="prefetch" href="assets/img/face.gif" />
+    <link rel="prefetch" href="assets/img/minimal.gif" />
     <link rel="prefetch" href="assets/img/design.gif" />
 
+</section>
+
+    <section>
+    <div class="instaDiv" style="display:block;position:relative">
+        <!-- <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f322f86493a057748d4f4d6fda84ac7d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget1" style="width: 100%; border: 0; overflow: hidden;position:absolute"></iframe> -->
+        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/95bbe6b0e77e5702a40a80649237a2bf.html" scrolling="no" allowtransparency="true" class="lightwidget-widget1" style="width: 100%; border: 0; overflow: hidden;position:absolute"></iframe>
+
+        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ff644a5b1d83505195fe739018151eb3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget2" style="width: 100%; border: 0; overflow: hidden;position:absolute"></iframe>
+
+    </div>
 </section>
 
 
@@ -40,14 +80,17 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,200" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
-</head>
-<body>
+<!-- </head> -->
+<!-- <body> -->
 <!--REMEMBER TO ADD ANALYTICS-->
 </body>
 
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="assets/js/functions.js"></script>
+<script src="assets/js/p5.min.js"></script>
+<script src="assets/js/p5.dom.min.js"></script>
 
 </html>
