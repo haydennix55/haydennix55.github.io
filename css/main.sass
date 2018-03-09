@@ -1,0 +1,74 @@
+---
+---
+body
+    transition: margin-left .5s
+    padding: 20px
+    overflow-x: hidden
+
+    -webkit-font-smoothing: subpixel-antialiased
+
+.sidenav
+    background-color: black
+    height: 100%
+    width: 0
+    position: fixed
+    z-index: 1
+    top: 0
+    left: 0
+    overflow-x: hidden
+    padding-top: 60px
+    transition: 0.5s
+    opacity: 0.9
+
+    a
+        padding: 8px 8px 8px 32px
+        text-decoration: none
+        font-family: "Helvetica Neue"
+        font-weight: 300
+        font-size: 32px
+        line-height: 48px
+        color: #818181
+        display: block
+        transition: 0.3s
+
+
+@import "1-tools/fonts"
+@import "1-tools/bourbon/bourbon"
+@import "1-tools/-tools-dir"
+@import "2-basics/-basics-dir"
+@import "3-modules/-modules-dir"
+@import "4-sections/-sections-dir"
+
+.contact-section
+    margin: 100px auto 0px auto
+    font-family: "Helvetica Neue"
+    font-weight: 300
+    text-align: center
+
+    h3
+        font-size: 32px
+
+    input
+        width: 30%
+        text-align: center
+        padding: 12px 20px
+        margin: 8px 0
+        display: inline-block
+        border: 1px solid #ccc
+        border-radius: 4px
+        box-sizing: border-box
+
+
+    .secondary-prompt
+
+        .message-div
+            margin-top: 10px
+
+            .message
+                width: 500px
+                height: 100px
+
+    .send-button
+
+        &:hover
+            background-color: #E3E3E5
