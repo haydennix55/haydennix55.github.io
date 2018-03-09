@@ -1,0 +1,256 @@
+.container
+    display: inline-block
+    cursor: pointer
+
+
+.bar1, .bar2, .bar3
+    width: 35px
+    height: 5px
+    background-color: #A0A0A0
+    margin: 6px 0
+    transition: 0.4s
+
+.container:hover
+    .bar1, .bar2, .bar3
+        background-color: #000000
+
+
+.change .bar1
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px)
+    transform: rotate(-45deg) translate(-9px, 6px)
+
+
+.change .bar2
+    opacity: 0
+
+.change .bar3
+    -webkit-transform: rotate(45deg) translate(-8px, -8px)
+    transform: rotate(45deg) translate(-8px, -8px)
+
+
+.arrow-holder
+    width: 100px
+    height: 100px
+    background-image: url('/assets/img/arrow.png')
+    background-size: contain
+    margin: 0px 0px 0px 35px
+    visibility: hidden
+
+    .learn-more-lasp
+        display: none
+
+    .learn-more-inspires
+        display: none
+
+    .learn-more-UX
+        display: none
+
+
+    .learn-more
+        font-family: $learn-more-font
+        font-weight: 300
+        font-size: 24px
+        color: black
+        text-align: left
+        padding-top: 80px
+
+        @media screen and (max-width: 908px)
+            text-align: right
+            padding-top: 0px
+            font-size: 18px
+
+
+
+.wrapper
+    position: absolute
+    z-index: 950
+    width: 1050px
+    background-color: transparent
+    top: 75px
+
+
+    @media screen and (max-width: 1210px)
+        width: 900px
+
+    @media screen and (max-width: 908px)
+        width: 700px
+
+    @media screen and (max-width: 708px)
+        width: 500px
+
+    @media screen and (max-width: 525px)
+        width: 400px
+
+
+    .parablock
+        width: 640px
+        background-color: white
+        margin: 100px auto 0px auto
+        pointer-events: none
+        background-color: transparent
+
+        @media screen and (max-width: 708px)
+            width: 400px
+
+        @media screen and (max-width: 425px)
+            width: 300px
+
+        .paratext
+            max-width: 640px
+            font-family: "Helvetica Neue"
+            font-weight: 300
+            font-size: 32px
+            line-height: 48px
+            color: black
+            pointer-events: none
+            background-color: transparent
+
+
+
+            @media screen and (max-width: 708px)
+                width: 400px
+
+            @media screen and (max-width: 425px)
+                width: 300px
+
+            .intro-link
+                color: black
+                text-decoration: none
+                border-bottom: 1px solid #95999d
+                padding-bottom: 1px
+                pointer-events: auto
+                background-color: transparent
+
+                transition: background-color 0.2s, padding-bottom 0.2s linear, border-bottom 0.2s linear
+                -webkit-transition: background-color 0.2s linear, padding-bottom 0.2s linear, border-bottom 0.2s linear
+                -moz-transition: background-color 0.2s linear, padding-bottom 0.2s linear, border-bottom 0.2s linear
+
+            .intro-link:hover
+                border-bottom: 1px solid black
+                background-color: rgba(0,0,0,0.2)
+                padding-bottom: 0px
+                color: black
+
+.lasp
+    background-image: url('/assets/img/lasp.gif')
+    background-repeat: no-repeat
+    background-position: 80% center
+    background-size: 100px
+
+    @media screen and (max-width: 1210px)
+        background-position: 85% center
+
+    @media screen and (max-width: 908px)
+        background-size: 50px
+        background-position: 90% center
+
+    @media screen and (max-width: 708px)
+        background-image: url('/assets/img/lasp1.gif')
+        background-size: 100px
+        background-position: 80% center
+
+    @media screen and (max-width: 525px)
+        background-position: 0% 55%
+
+    @media screen and (max-width: 425px)
+        background-position: 100% 55%
+
+
+
+.minimal
+    background-image: url('/assets/img/sine.gif')
+    background-repeat: no-repeat
+    background-position: 90% center
+    background-size: contain
+
+    @media screen and (max-width: 1210px)
+        background-position: 95% center
+
+    @media screen and (max-width: 908px)
+        background-position: 0% center
+
+
+.fashion
+    background-image: url('/assets/img/gucci1.jpg')
+    background-repeat: no-repeat
+    background-position: 90% center
+    background-size: contain
+
+    @media screen and (max-width: 1210px)
+        background-position: 95% center
+
+    @media screen and (max-width: 908px)
+        background-position: 0% center
+        background-image: url('/assets/img/gucci2.jpg')
+
+
+    @media screen and (max-width: 525px)
+
+    @media screen and (max-width: 425px)
+        background-position: 100% 55%
+
+
+.ux
+    background-image: url('/assets/img/insta.gif')
+    background-position: 90% center
+    background-repeat: no-repeat
+    background-size: contain
+
+    @media screen and (max-width: 1210px)
+        background-position: 95% center
+
+    @media screen and (max-width: 908px)
+        background-size: 300px
+        background-position: 100% center
+
+    @media screen and (max-width: 708px)
+        background-position: 100% center
+
+    @media screen and (max-width: 525px)
+        background-size: 300px
+        background-position: 100% 60%
+
+.sneaker
+    background-image: url('/assets/img/sneaker6.gif')
+    background-repeat: no-repeat
+    background-position: 90% center
+    background-size: contain
+
+    @media screen and (max-width: 1210px)
+        background-position: 95% center
+
+    @media screen and (max-width: 908px)
+        background-size: 300px
+        background-position: 100% center
+
+    @media screen and (max-width: 425px)
+        background-position: 100% 55%
+
+
+.design
+    background-image: url('/assets/img/design.gif')
+    background-position: 90% center
+    background-repeat: no-repeat
+    background-size: 300px
+
+    @media screen and (max-width: 1210px)
+        background-position: 100% center
+
+    @media screen and (max-width: 908px)
+        background-position: 0% center
+
+    @media screen and (max-width: 708px)
+        background-position: 100% 60%
+
+    @media screen and (max-width: 525px)
+        background-position: 100% 30%
+
+
+
+.parablock:hover
+    .paratext
+        color: rgba(0,0,0,0.2)
+
+        .hide
+            color: rgba(0,0,0,0.2)
+            border-bottom: 1px solid rgba(0,0,0,0.1)
