@@ -266,7 +266,8 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .instaDiv .snapwidget-widget {
-  top: 650px; }
+  top: 650px;
+  height: 2500px; }
   @media screen and (max-width: 1210px) {
     .instaDiv .snapwidget-widget {
       top: 650px; } }
@@ -278,7 +279,8 @@ header {
       visibility: hidden; } }
 .instaDiv .snapwidget-widget2 {
   visibility: hidden;
-  top: 850px; }
+  top: 850px;
+  height: 2500px; }
   @media screen and (max-width: 500px) {
     .instaDiv .snapwidget-widget2 {
       visibility: visible; } }
